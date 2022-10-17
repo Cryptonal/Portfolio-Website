@@ -4,6 +4,7 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -31,6 +32,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: fixed;
+    margin-left: 700px;
 }
 
 .logo{
@@ -67,13 +70,14 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 20%;
+    margin-top: 35%;
     font-size: 30px;
+    
 }
 
 .header-text h1{
     font-size: 60px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .header-text h1 span{
@@ -106,8 +110,12 @@ nav ul li a:hover::after{
     flex-basis: 60%;
 }
 
+.about-col-2 .sub-title{
+    margin-top: -9px;
+}
+
 .sub-title{
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 600;
     color: #fff;
 }
@@ -364,7 +372,7 @@ nav .fas{
         margin: 25px;
     }
     nav ul .fas{
-        position: inherit;
+        position: absolute;
         top: 25px;
         left: 25px;
         cursor: pointer;
